@@ -1,0 +1,37 @@
+﻿Build started 15/09/2017 16:59:21.
+     1>Project "C:\Users\thiag\Documents\Visual Studio 2015\Projects\Fera_Unicap\Fera_Unicap\Fera_Unicap.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Abb.c Principal.c
+         Principal.c
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(32): error C2065: 'pos_aluno': undeclared identifier
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(32): warning C4047: 'function': 'TNo **' differs in levels of indirection from 'TNo *'
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(32): warning C4024: 'iniciar_arvore': different types for formal and actual parameter 1
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(60): warning C4047: 'function': 'TNo *' differs in levels of indirection from 'TNo **'
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(60): warning C4024: 'alterar_aluno': different types for formal and actual parameter 2
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(62): warning C4047: 'function': 'TNo *' differs in levels of indirection from 'TNo **'
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(62): warning C4024: 'buscar_aluno': different types for formal and actual parameter 2
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(64): warning C4133: 'function': incompatible types - from 'FILE *' to 'TNo *'
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(64): warning C4047: 'function': 'FILE *' differs in levels of indirection from 'TNo **'
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\principal.c(64): warning C4024: 'remover_cadastro': different types for formal and actual parameter 2
+         Abb.c
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(13): warning C4013: 'malloc' undefined; assuming extern returning int
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(26): warning C4047: 'function': 'TNo **' differs in levels of indirection from 'arvore *'
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(26): warning C4024: 'inserir_arvore': different types for formal and actual parameter 1
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(26): error C2198: 'inserir_arvore': too few arguments for call
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(29): warning C4047: 'function': 'TNo **' differs in levels of indirection from 'arvore *'
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(29): warning C4024: 'inserir_arvore': different types for formal and actual parameter 1
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(29): error C2198: 'inserir_arvore': too few arguments for call
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(45): warning C4013: 'buscar_aluno' undefined; assuming extern returning int
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(83): warning C4013: 'free' undefined; assuming extern returning int
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(113): warning C4129: 'N': unrecognized character escape sequence
+     1>c:\users\thiag\documents\visual studio 2015\projects\fera_unicap\fera_unicap\abb.c(119): error C2198: 'inserir_arvore': too few arguments for call
+         Generating Code...
+     1>Done Building Project "C:\Users\thiag\Documents\Visual Studio 2015\Projects\Fera_Unicap\Fera_Unicap\Fera_Unicap.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.24
